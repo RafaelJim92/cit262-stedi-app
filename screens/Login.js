@@ -56,8 +56,11 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
-                Alert.alert(`Hello ${phoneNumber}`);
+                
                 const name = "Rafael";
+
+                Alert.alert(`Hello ${name}`);  // Updated this line to use the name variable
+
 
                 console.log(phoneNumber+' Button was pressed')
     
