@@ -57,7 +57,7 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                style={styles.sendButton}
               onPress={async ()=>{
                 
-                const name = "Rafael";
+                const name = "Rafael Jimenez";
 
                 Alert.alert(`Hello ${name}`);  // Updated this line to use the name variable
 
